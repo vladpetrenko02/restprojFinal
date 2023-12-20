@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA51iH6MyH+kmO5W5aA6TxqgAAAAACAAAAAAAQZgAAAAEAACAAAADmtTO+vWg5t2kLuDZVPpkZ/lLaElo3VzJ+6n5sanVE1wAAAAAOgAAAAAIAACAAAADeCoQr+VCr9v+BHVT6sJzw+M3WG44tV2h+kp/SIp30JoAAAAAe62fp3+q+foRhhAa9mGhdg8znhtKw2G6k/WFeHtK8PBB86EqZc2V9r1QHUNcbxKiqn2lZbXterHCM5y2pJPXP3UvnYVm1Bqa9F3658utGjrfcdMMK6zSc14VrZYER9bBvaXfbkt6R6ZMVioHJkdP7GZcFxNTM7XvXHj1weXOw+EAAAACa41k1Iaw943MZGk4IhMJsak7hfI1ntN3+A2T5A5PdBl2oOSswDvkcYpgT2rjdM5SlxAZPOmSE8x4RHXEfSivx</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:spice2021dbserver.database.windows.net,1433%3bInitial Catalog=Spice_db%3bUser Id=adminuser%40spice2021dbserver%3bPassword=Aa%40123456</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Spice.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:spice2021dbserver.database.windows.net,1433%3bInitial Catalog=Spice_db%3bUser Id=adminuser%40spice2021dbserver%3bPassword=Aa%40123456</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
